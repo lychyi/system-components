@@ -1,0 +1,32 @@
+{
+  "name": "system-components",
+  "version": "0.0.0",
+  "description": "A set of utilities and general components for design systems.",
+  "main": "index.js",
+  "author": "Lynn Chyi",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "src/components/*",
+    "src/utils/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/cli": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "yarn storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
