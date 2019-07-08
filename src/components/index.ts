@@ -1,1 +1,1 @@
-export * from './viewport-emitter';
+export * from './media-matcher';
